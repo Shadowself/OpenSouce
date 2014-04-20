@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidzhang.myapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/my_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".dataGet" >
+        <activity
+            android:name="com.androidzhang.myapp.MainActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.welcome_01"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.welcome_02"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="欢迎界面" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.personal"
+            android:label="个人中心" >
+        </activity>
+        <activity
+            android:name="com.androidzhang.myapp.post"
+            android:label="注册账户" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.login"
+            android:label="登录" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.healthy"
+            android:label="健康顾问" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.collected"
+            android:label="我的收藏" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.OneView"
+            android:label="我的收藏" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.TwoView"
+            android:label="我的收藏" >
+        </activity>
+        <activity
+            android:name="com.androidzhang.myapp.ThreeView"
+            android:label="我的收藏" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.managemb"
+            android:label="添加成员" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.addmember"
+            android:label="添加成员" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.hospital.doc_hos"
+            android:label="名医名院" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.hospital.fone"
+            android:label="名医名院" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.hospital.ftwo"
+            android:label="名医名院" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.hospital.fthree"
+            android:label="名医名院" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.hospital.zdinfor"
+            android:label="名医名院" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.hospital.docinfor"
+            android:label="名医名院" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.hospital.hos_choose"
+            android:label="名医名院" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.hospital.doc_hos_choose"
+            android:label="名医名院" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.hospital.choose_result"
+            android:label="名医名院" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.order_choose"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.place_choose"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.place_zz"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.hospital_choose"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.order_zdinfor"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.sesion_choose"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.order_sesion_choose"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.order_classes"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.doctor_infor"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.make_sure"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.order_success"
+            android:label="预约挂号" >
+        </activity>
+        
+        <activity
+            android:name="com.androidzhang.myapp.order.myorder"
+            android:label="预约挂号" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal" >
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="7" >
+
+                <TextView
+                    android:id="@+id/erke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="儿科门诊"
+                    android:textColor="#1874CD"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/zdyy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/erke"
+                    android:text="郑州大学第一附属医院"
+                    android:textColor="#1874CD"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/zdyy"
+                    android:text="省重点"
+                    android:textColor="#1874CD"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="5"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20B2AA"
+        android:height="1dp" />
+    
+    <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal" >
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="7" >
+
+                <TextView
+                    android:id="@+id/neike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="内科"
+                    android:textColor="#1874CD"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/szyy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/neike"
+                    android:text="深圳市第二人民医院"
+                    android:textColor="#1874CD"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/szyy"
+                    android:text="市重点"
+                    android:textColor="#1874CD"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="5"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20B2AA"
+        android:height="1dp" />
+    
+    <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal" >
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="7" >
+
+                <TextView
+                    android:id="@+id/neifm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="内分泌科"
+                    android:textColor="#1874CD"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/zxyy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/neifm"
+                    android:text="郑州新世纪女子医院"
+                    android:textColor="#1874CD"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/zxyy"
+                    android:text="区重点"
+                    android:textColor="#1874CD"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="5"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20B2AA"
+        android:height="1dp" />
+        
+    <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal" >
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="7" >
+
+                <TextView
+                    android:id="@+id/huxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="呼吸内科"
+                    android:textColor="#1874CD"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/bjyy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/huxi"
+                    android:text="北京医院"
+                    android:textColor="#1874CD"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bjyy"
+                    android:text="市重点"
+                    android:textColor="#1874CD"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="3.17"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+        
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20B2AA"
+        android:height="1dp" />
+    
+    <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal" >
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="7" >
+
+                <TextView
+                    android:id="@+id/guguanjie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="骨关节科"
+                    android:textColor="#1874CD"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/zzyy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guguanjie"
+                    android:text="郑州市中心医院"
+                    android:textColor="#1874CD"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/zzyy"
+                    android:text="省重点"
+                    android:textColor="#1874CD"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="3.73"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    
+</LinearLayout>

@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/butt1"
+            android:layout_width="270dp"
+            android:layout_height="100dp"
+            android:background="@drawable/title" >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/a1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1874CD"
+                android:text="郑州 "
+                android:textSize="10sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13-24℃"
+                android:textColor="#1874CD"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/butt2"
+            android:layout_width="140dp"
+            android:layout_height="280dp"
+            android:src="@drawable/first_order"
+            android:onClick="toorder_choose"/>
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="280dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/person_butt"
+                android:layout_width="140dp"
+                android:layout_height="135dp"
+                android:src="@drawable/first_person"
+                android:onClick="person_view"/>
+
+            <ImageView
+                android:id="@+id/butt4"
+                android:layout_width="140dp"
+                android:layout_height="135dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/first_hos_doc"
+                android:onClick="todoc_hos"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/butt5"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/first_health"
+            android:onClick="Healthy"/>
+
+        <ImageView
+            android:id="@+id/butt6"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:onClick="toCollected"
+            android:src="@drawable/first_collect" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/first_ph" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

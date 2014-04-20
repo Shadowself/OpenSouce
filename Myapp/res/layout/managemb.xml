@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground22"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:onClick="back_before"
+            android:src="@drawable/back_before" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="添加成员"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="成员管理"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:onClick="add_mb"
+            android:src="@drawable/add" />
+"
+    </RelativeLayout>
+
+    <!-- 动态显示界面 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.95"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/mbinfor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#20B2AA">
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bott"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="0.1"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:onClick="to_order"
+            android:src="@drawable/small_order"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="todoc_hos"
+            android:layout_centerInParent="true"
+            android:src="@drawable/small_hos_doc"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:onClick="tocollected"
+            android:layout_marginRight="20sp"
+            android:src="@drawable/small_collect"/>
+    </RelativeLayout>
+
+</LinearLayout>

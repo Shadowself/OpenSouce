@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "ways" >
+        <item >①到院支付</item>
+        <item >②在线支付</item>
+    </string-array>
+</resources>

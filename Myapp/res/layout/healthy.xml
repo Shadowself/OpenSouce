@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground4"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:onClick="back_main"
+            android:src="@drawable/back_before"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFFF"
+            android:text="健康顾问"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/health_title"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/tx"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/health_01" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tx"
+            android:layout_toRightOf="@+id/tx"
+            android:layout_marginLeft="10dp"
+            android:textColor="#1874CD"
+            android:text="柠檬水的好处多多"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/text1"
+            android:layout_toRightOf="@+id/tx"
+            android:textColor="#1874CD"
+            android:text="你知道吗？柠檬水还有多种保健功效。早上喝一杯柠檬水就能足以让..."
+            android:textSize="15sp" />
+    </RelativeLayout>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20B2AA"
+        android:height="1dp" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/tx"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/health_02" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tx"
+            android:layout_toRightOf="@+id/tx"
+            android:textColor="#1874CD"
+            android:layout_marginLeft="10dp"
+            android:text="给眼睛过个“清明”节"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tx"
+            android:textColor="#1874CD"
+            android:text="你清澈迷人的大眼睛还掩盖在厚厚的“瓶盖”之后嘛？“视觉”模糊导致囧事…"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20B2AA"
+        android:height="1dp" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/tx"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/health_03" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tx"
+            android:layout_toRightOf="@+id/tx"
+            android:layout_marginLeft="10dp"
+            android:textColor="#1874CD"
+            android:text="饭后“八不急”"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_toRightOf="@+id/tx"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#1874CD"
+            android:text="很多人在饭后的时候有很多不好的习惯，而这些习惯会对您的身体有不好…"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20B2AA"
+        android:height="1dp" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/tx"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/health_04" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tx"
+            android:layout_toRightOf="@+id/tx"
+            android:textColor="#1874CD"
+            android:layout_marginLeft="10dp"
+            android:text="6类养颜酸味食物 帮你打造健康…"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_toRightOf="@+id/tx"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#1874CD"
+            android:text="食物也分酸碱性，日常生活中，很多人不爱吃酸味食物，其实吃点酸味…"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    
+
+</LinearLayout>

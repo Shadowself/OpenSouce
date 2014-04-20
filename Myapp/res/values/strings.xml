@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Myapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="information">\t\t\t\t郑州大学第一附属医院始建于1928年9月，
+        其前身为原国立河南大学医学院附属医院，2000年并入新郑州大学，
+        正式命名为郑州大学第一附属医院，先后被评定为“三级甲等医院”、
+        国家级“爱婴医院”、全国“百家医院”、“全国防治非典工作先进基层党组织”、
+   “河南省医院管理年先进单位”等荣誉称号。</string>
+   <string name="gj">公交线路：103 \t104\t 108 \t 109 \t111 \t 211 \t254 \t277 
+       \t301 \t302 \t317 \t322 \t34 \t35 \t37 \t49 \t50 \t518 \t52</string>
+   <string name="cyl">诊治食管、胃肠、肝胆胰腺疾病及伴有焦虑抑郁的疾病。内镜下治疗独具特色。</string>
+   <string name="tip">请选择支付方式</string>
+</resources>

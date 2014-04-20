@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sesion_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="40dp"
+            android:text="心血管内科"
+            android:textSize="15sp">
+        </TextView>
+        <TextView
+            android:id="@+id/xiaohua"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="40dp"
+            android:text="消化内科"
+            android:onClick="setcolor"
+            android:textSize="15sp"/>
+        
+    </TableRow>
+    
+    <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="40dp"
+            android:text="内分泌内科"
+            android:textSize="15sp"/>
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="40dp"
+            android:text="血液内科"
+            android:textSize="15sp"/>
+        
+    </TableRow>
+    
+    <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="40dp"
+            android:text="神经内科"
+            android:textSize="15sp"/>
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="40dp"
+            android:text="呼吸内科"
+            android:textSize="15sp"/>
+        
+    </TableRow>
+    
+    <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="40dp"
+            android:text="肾病内科"
+            android:textSize="15sp"/>
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="40dp"
+            android:text="风湿免疫科"
+            android:textSize="15sp"/>
+        
+    </TableRow>
+    
+
+</TableLayout>
