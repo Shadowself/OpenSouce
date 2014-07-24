@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#b0e0e6"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/bk"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:background="#87ceeb"
+            android:text="☜ 返回"
+            android:onClick="backclick"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/gonghao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:text="工号"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:textColor="#0000FF"
+        android:text="所有处理过的快递"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"  
+        android:background="#b0e0e6"
+        />
+    
+    <ListView
+        android:id="@+id/infor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        />
+
+</LinearLayout>

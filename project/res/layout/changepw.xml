@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground2"
+    android:orientation="vertical"
+>
+    
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#b0e0e6"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:background="#87ceeb"
+            android:text="☜ 返回"
+            android:onClick="fanhui"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dip"
+        android:layout_marginRight="34dip"
+        android:layout_marginTop="20dp"
+        android:background="#f0ffff"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="旧  密  码: "
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/old_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/qq_edit_login"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/name" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dip"
+        android:layout_marginRight="34dip"
+        android:layout_marginTop="20dp"
+        android:background="#f0ffff"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="新  密  码: "
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/new_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/qq_edit_login"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/text2" />
+    </RelativeLayout>
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dip"
+        android:layout_marginRight="34dip"
+        android:layout_marginTop="20dp"
+        android:background="#f0ffff"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="确认密码: "
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/new_pw1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/qq_edit_login"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/text3" />
+    </RelativeLayout>
+    
+    
+    <Button 
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center" 
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:text="确     定"
+        android:onClick="change_pswd"
+        android:textColor="#0000FF"
+        android:textSize="24sp"
+        />
+
+</LinearLayout>

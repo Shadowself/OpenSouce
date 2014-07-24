@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back_ground2"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#b0e0e6"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:background="#87ceeb"
+            android:text="☜ 返回"
+            android:onClick="backclick"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/gonghao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="选择查询方式"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+        
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/FastId"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:hint="请输入要查询的单号" />
+
+    
+    <Button
+        android:id="@+id/scan_id"
+        android:onClick="scan_id"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFA500"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="扫描单号" />
+    
+    <Button
+        android:id="@+id/find_fast"
+        android:onClick="find_fast"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FF69B4"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="按单号查找快递" />
+    
+    <Button
+        android:id="@+id/find_all"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFA500"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:onClick="find_all"
+        android:text="查询所有处理过的快递" />
+
+    
+
+</LinearLayout>

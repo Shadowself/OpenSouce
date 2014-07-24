@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground2"
+    android:orientation="vertical"
+>
+    
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#b0e0e6"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:background="#87ceeb"
+            android:text="☜ 返回"
+            android:onClick="fanhui"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:background="#f0ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dip"
+        android:layout_marginRight="34dip"
+        android:layout_marginTop="20dp"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="工        号: "
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/userid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:background="@drawable/qq_edit_login"
+            android:layout_alignParentRight="true"
+            android:hint="只能输入数字"
+            android:layout_toRightOf="@id/text1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dip"
+        android:layout_marginRight="34dip"
+        android:layout_marginTop="20dp"
+        android:background="#f0ffff"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="姓        名: "
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/oper_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/qq_edit_login"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/name" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dip"
+        android:layout_marginRight="34dip"
+        android:layout_marginTop="20dp"
+        android:background="#f0ffff"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="密        码: "
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/qq_edit_login"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/text2" />
+    </RelativeLayout>
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dip"
+        android:layout_marginRight="34dip"
+        android:layout_marginTop="20dp"
+        android:background="#f0ffff"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="重复密码: "
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/qq_edit_login"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/text3" />
+    </RelativeLayout>
+    
+    
+    <Button 
+        android:id="@+id/ps"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center" 
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:text="注    册"
+        android:textColor="#0000FF"
+        android:textSize="24sp"
+        />
+
+</LinearLayout>

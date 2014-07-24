@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#b0e0e6"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:background="#87ceeb"
+            android:text="☜ 返回"
+            android:onClick="back_main"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/gonghao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="工号"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+        
+        <Button
+            android:id="@+id/cxmail"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:background="#87ceeb"
+            android:text="查询快递 ☞"
+            android:onClick="findmail"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/resv"
+        android:layout_below="@+id/resv"
+        android:background="#FFA500"
+        android:layout_marginTop="21dp"
+        android:textSize="50sp"
+        android:text="送达" />
+
+    <Button
+        android:id="@+id/resv"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/textView1"
+        android:background="#FF69B4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:textSize="50sp"
+        android:text="收件" />
+    
+    <Button
+        android:id="@+id/change_pw"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:background="#FF69B4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/send"
+        android:textSize="25sp"
+        android:onClick="changepswd"
+        android:text="修改密码" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:textColor="#0000FF"
+        android:text="扫一扫"
+        android:textSize="28sp" />
+
+</RelativeLayout>
