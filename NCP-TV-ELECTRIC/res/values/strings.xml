@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NCP-TV-ELECTRIC</string>
+    <string name="action_settings">Settings</string>
+    <string name="building">楼号</string>
+    <string name="room_id">房间号</string>
+     <string name="odd">剩余电量</string>
+    <string name="desc">供电状态</string>
+    <string name="netpath_setting">网络服务设置</string>
+    <string name="serverAddress1">楼号1集中器IP地址：</string>
+    <string name="serverAddress2">楼号2集中器IP地址：</string>
+    <string name="building1">楼号1：</string>
+    <string name="building2">楼号2：</string>
+    <string name="btnBack">取消</string>
+    <string name="btnConfirm">确定</string>
+</resources>
