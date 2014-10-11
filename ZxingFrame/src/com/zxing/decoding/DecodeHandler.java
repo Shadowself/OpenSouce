@@ -73,6 +73,7 @@ final class DecodeHandler extends Handler {
     Result rawResult = null;
     
     //modify here
+    //竖屏
     byte[] rotatedData = new byte[data.length];
     for (int y = 0; y < height; y++) {
         for (int x = 0; x < width; x++)
@@ -83,6 +84,8 @@ final class DecodeHandler extends Handler {
     height = tmp;
     
     PlanarYUVLuminanceSource source = CameraManager.get().buildLuminanceSource(rotatedData, width, height);
+   //横屏
+//    PlanarYUVLuminanceSource source = CameraManager.get().buildLuminanceSource(data, width, height);
     BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(source));
     try {
       rawResult = multiFormatReader.decodeWithState(bitmap);
